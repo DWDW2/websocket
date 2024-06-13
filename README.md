@@ -1,7 +1,7 @@
 ### Setup .env file
 
 ```js
-PORT=...
+PORT=...(5000)
 MONGO_DB_URI=...
 JWT_SECRET=...
 NODE_ENV=...
@@ -11,6 +11,15 @@ NODE_ENV=...
 
 ```shell
 npm run build
+```
+
+### Run on localhost
+
+```shell
+npm run server
+
+cd frontend
+npm run dev
 ```
 
 ### Start the app
